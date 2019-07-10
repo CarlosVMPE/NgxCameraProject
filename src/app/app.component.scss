@@ -1,0 +1,51 @@
+.actionBtn {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-size: 1.2em;
+}
+
+.snapshot {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+ul.links {
+  padding-bottom: 20px;
+}
+
+// adicional
+.photoFront{
+    position: relative;
+    width: 280px;
+    height: 200px;
+    background: #2c3e50;
+    margin: auto;
+    overflow: hidden;
+}
+
+.webcam{
+    width: 100%;
+    height: 100%;
+}
+
+.uploadPhotoFront{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadPhotoFront i{
+  font-size: 64px;
+  color: #00A9E0;
+}
